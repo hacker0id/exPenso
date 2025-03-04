@@ -48,7 +48,7 @@ class BarGraph extends StatelessWidget {
             rightTitles: AxisTitles(sideTitles: SideTitles(showTitles: false)),
             leftTitles: AxisTitles(sideTitles: SideTitles(showTitles: false)),
 
-            //* Custom
+            // * Custom
             bottomTitles: AxisTitles(
               sideTitles: SideTitles(
                   showTitles: true, getTitlesWidget: getBottomTitles),
